@@ -2,9 +2,9 @@ let username;
 let userresult;
 let answer = window.prompt("お名前を教えてください。");
 if (answer == ''){
-    username = "名無しさん"
+    username = "名無しさん！"
 }else{
-    username = answer
+    username = answer + "さん！"
 }
 document.getElementById("name").innerHTML = username;
 
